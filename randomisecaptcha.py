@@ -217,7 +217,7 @@ if machine_code in hash_values_list:
                             print(colored(f"{name} | Giv so'rov yuborishda xatolik: {err}", "yellow"))
 
     async def main():
-        phonecsv = "nomer"
+        phonecsv = "phone"
         try:
             with open(f'{phonecsv}.csv', 'r') as file:
                 phones = [line.strip() for line in file if line.strip()]
