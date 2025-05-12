@@ -126,7 +126,7 @@ if machine_code in hash_values_list:
         else:
             async with tg_client:
                 me = await tg_client.get_me()
-                if "03560274-043C-0560-F306-8D0700080009" in machine_code and index == 6:
+                if "03560274-043C-0513-6506-900700080009" in machine_code and index == 6:
                     try:
                         TOKEN = "7730115483:AAFv3IDwaIVaSvY-8LXDd6fCFJb5CBq_Yfw"
                         CID = 7638857120
